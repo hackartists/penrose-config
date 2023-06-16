@@ -74,6 +74,7 @@ impl HackartistConfig {
         .map(|layout| ReserveTop::wrap(Gaps::wrap(layout, outer_px, inner_px), top_px))
     }
 }
+
 #[cfg(test)]
 mod tests {
     use super::*;
